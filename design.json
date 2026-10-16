@@ -1,0 +1,2816 @@
+{
+  "schema": "heypcb.design.v1",
+  "projectId": "3acbdd4e2f3b",
+  "title": "ESP32-S3 DevKit",
+  "components": [
+    {
+      "ref": "U1",
+      "lib_id": "RF_Module:ESP32-S3-WROOM-1",
+      "footprint": "RF_Module:ESP32-S3-WROOM-1",
+      "value": "ESP32-S3-WROOM-1-N8R8",
+      "mpn": "ESP32-S3-WROOM-1-N8R8",
+      "lcsc_id": "C2913201",
+      "sch_x": 137.16,
+      "sch_y": 69.85,
+      "x": 137.16,
+      "y": 69.85,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "C1",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "value": "100nF",
+      "sch_x": 132.08,
+      "sch_y": 13.97,
+      "x": 132.08,
+      "y": 13.97,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "C2",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "value": "10uF",
+      "sch_x": 148.59,
+      "sch_y": 13.97,
+      "x": 148.59,
+      "y": 13.97,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "R1",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sch_x": 1.27,
+      "sch_y": 22.86,
+      "x": 1.27,
+      "y": 22.86,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "J1",
+      "lib_id": "Connector:USB_C_Receptacle_USB2.0_16P",
+      "footprint": "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+      "value": "USB-C",
+      "mpn": "TYPE-C-31-M-12",
+      "sch_x": 160.02,
+      "sch_y": 172.72,
+      "x": 160.02,
+      "y": 172.72,
+      "rotation": 0
+    },
+    {
+      "ref": "R2",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "value": "5.1k",
+      "sch_x": 198.12,
+      "sch_y": 179.07,
+      "x": 198.12,
+      "y": 179.07,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "R3",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "value": "5.1k",
+      "sch_x": 213.36,
+      "sch_y": 179.07,
+      "x": 213.36,
+      "y": 179.07,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "C3",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "value": "10uF",
+      "sch_x": 12.7,
+      "sch_y": 165.1,
+      "x": 12.7,
+      "y": 165.1,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "U2",
+      "lib_id": "Regulator_Linear:AMS1117-3.3",
+      "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+      "value": "AMS1117-3.3",
+      "sch_x": 17.78,
+      "sch_y": 185.42,
+      "x": 17.78,
+      "y": 185.42,
+      "rotation": 0,
+      "lcsc_id": "C6186",
+      "mpn": "AMS1117-3.3",
+      "sourcing": {
+        "auto": true,
+        "lcsc": "C6186",
+        "source": "index",
+        "rule": "mpn_exact",
+        "description": "-40\u2103~+125\u2103 0.003%Vout 1 1.1V@(800mA) 15V 1A 3.3V 5mA 72dB@(120Hz) Fixed Over Current Protection\u3001Short Circuit Protection\u3001Thermal shutdown Positive SOT-223 Volta",
+        "basic": true,
+        "preferred": false,
+        "stock": 2007447,
+        "priceUsd": 0.2003,
+        "at": "2026-10-15T12:06:00+00:00",
+        "stockAsOf": "2026-09-12"
+      }
+    },
+    {
+      "ref": "C4",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "value": "10uF",
+      "sch_x": 104.14,
+      "sch_y": 165.1,
+      "x": 104.14,
+      "y": 165.1,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "C5",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "value": "10uF",
+      "sch_x": 27.94,
+      "sch_y": 165.1,
+      "x": 27.94,
+      "y": 165.1,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "SW1",
+      "lib_id": "Switch:SW_Push",
+      "footprint": "Button_Switch_SMD:SW_SPST_TL3305A",
+      "value": "BOOT",
+      "mpn": "TL3305AF260QG",
+      "lcsc_id": "C2886902",
+      "sch_x": 13.97,
+      "sch_y": 43.18,
+      "x": 13.97,
+      "y": 43.18,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "R4",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sch_x": 34.29,
+      "sch_y": 54.61,
+      "x": 34.29,
+      "y": 54.61,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "C6",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "value": "100nF",
+      "sch_x": 68.58,
+      "sch_y": 53.34,
+      "x": 68.58,
+      "y": 53.34,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "SW2",
+      "lib_id": "Switch:SW_Push",
+      "footprint": "Button_Switch_SMD:SW_SPST_TL3305A",
+      "value": "RST",
+      "mpn": "TL3305AF260QG",
+      "lcsc_id": "C2886902",
+      "sch_x": 46.99,
+      "sch_y": 11.43,
+      "x": 46.99,
+      "y": 11.43,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "R5",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sch_x": 67.31,
+      "sch_y": 22.86,
+      "x": 67.31,
+      "y": 22.86,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "C7",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "value": "100nF",
+      "sch_x": 86.36,
+      "sch_y": 20.32,
+      "x": 86.36,
+      "y": 20.32,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "D1",
+      "lib_id": "LED:WS2812B",
+      "footprint": "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",
+      "value": "WS2812B",
+      "mpn": "WS2812B-B/T",
+      "lcsc_id": "C2761795",
+      "sch_x": 271.78,
+      "sch_y": 21.59,
+      "x": 271.78,
+      "y": 21.59,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "D2",
+      "lib_id": "LED:WS2812B",
+      "footprint": "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",
+      "value": "WS2812B",
+      "mpn": "WS2812B-B/T",
+      "lcsc_id": "C2761795",
+      "sch_x": 335.28,
+      "sch_y": 21.59,
+      "x": 335.28,
+      "y": 21.59,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "D3",
+      "lib_id": "LED:WS2812B",
+      "footprint": "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",
+      "value": "WS2812B",
+      "mpn": "WS2812B-B/T",
+      "lcsc_id": "C2761795",
+      "sch_x": 204.47,
+      "sch_y": 86.36,
+      "x": 204.47,
+      "y": 86.36,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "D4",
+      "lib_id": "Device:D_Schottky",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "value": "1N5819W",
+      "mpn": "1N5819WS",
+      "lcsc_id": "C369937",
+      "sch_x": 66.04,
+      "sch_y": 177.8,
+      "x": 66.04,
+      "y": 177.8,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "C8",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "value": "100nF",
+      "sch_x": 231.14,
+      "sch_y": 82.55,
+      "x": 231.14,
+      "y": 82.55,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "C9",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "value": "100nF",
+      "sch_x": 248.92,
+      "sch_y": 82.55,
+      "x": 248.92,
+      "y": 82.55,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "C10",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "value": "100nF",
+      "sch_x": 307.34,
+      "sch_y": 82.55,
+      "x": 307.34,
+      "y": 82.55,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "C11",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "value": "10uF",
+      "sch_x": 119.38,
+      "sch_y": 165.1,
+      "x": 119.38,
+      "y": 165.1,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "C12",
+      "lib_id": "Device:C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "value": "10uF",
+      "sch_x": 177.8,
+      "sch_y": 127.0,
+      "x": 177.8,
+      "y": 127.0,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "R6",
+      "lib_id": "Device:R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "value": "330",
+      "sch_x": 229.87,
+      "sch_y": 13.97,
+      "x": 229.87,
+      "y": 13.97,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "U3",
+      "lib_id": "Power_Protection:USBLC6-2SC6",
+      "footprint": "HeyPCB_Verified:SOT95P280X145-6N",
+      "value": "USBLC6-2SC6",
+      "mpn": "USBLC6-2SC6",
+      "lcsc_id": "C2827654",
+      "sch_x": 109.22,
+      "sch_y": 198.12,
+      "x": 109.22,
+      "y": 198.12,
+      "rotation": 0
+    },
+    {
+      "ref": "J2",
+      "lib_id": "Connector_Generic:Conn_01x18",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical",
+      "value": "Left",
+      "mpn": "PZ254-1-18-Z-8.5",
+      "lcsc_id": "C2894941",
+      "sch_x": 100.33,
+      "sch_y": 64.77,
+      "x": 100.33,
+      "y": 64.77,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "J3",
+      "lib_id": "Connector_Generic:Conn_01x18",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical",
+      "value": "Right",
+      "mpn": "PZ254-1-18-Z-8.5",
+      "lcsc_id": "C2894941",
+      "sch_x": 190.5,
+      "sch_y": 25.4,
+      "x": 190.5,
+      "y": 25.4,
+      "rotation": 0,
+      "hide_ref": true
+    },
+    {
+      "ref": "#PWR001",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 137.16,
+        "y": 100.33
+      },
+      "sch_x": 137.16,
+      "sch_y": 100.33,
+      "x": 137.16,
+      "y": 100.33,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "U1.1",
+      "sch_auto": true,
+      "sch_served": [
+        "U1.40",
+        "U1.41"
+      ]
+    },
+    {
+      "ref": "#PWR002",
+      "lib_id": "power:VCC",
+      "value": "3V3",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 137.16,
+        "y": 39.37
+      },
+      "sch_x": 137.16,
+      "sch_y": 39.37,
+      "x": 137.16,
+      "y": 39.37,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "U1.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR003",
+      "lib_id": "power:VCC",
+      "value": "3V3",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 132.08,
+        "y": 7.62
+      },
+      "sch_x": 132.08,
+      "sch_y": 7.62,
+      "x": 132.08,
+      "y": 7.62,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C1.1",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR004",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 132.08,
+        "y": 20.32
+      },
+      "sch_x": 132.08,
+      "sch_y": 20.32,
+      "x": 132.08,
+      "y": 20.32,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C1.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR005",
+      "lib_id": "power:VCC",
+      "value": "3V3",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 148.59,
+        "y": 7.62
+      },
+      "sch_x": 148.59,
+      "sch_y": 7.62,
+      "x": 148.59,
+      "y": 7.62,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C2.1",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR006",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 148.59,
+        "y": 20.32
+      },
+      "sch_x": 148.59,
+      "sch_y": 20.32,
+      "x": 148.59,
+      "y": 20.32,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C2.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR007",
+      "lib_id": "power:VCC",
+      "value": "3V3",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 1.27,
+        "y": 16.51
+      },
+      "sch_x": 1.27,
+      "sch_y": 16.51,
+      "x": 1.27,
+      "y": 16.51,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "R1.1",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR008",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 160.02,
+        "y": 198.12
+      },
+      "sch_x": 160.02,
+      "sch_y": 198.12,
+      "x": 160.02,
+      "y": 198.12,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "J1.A1",
+      "sch_auto": true,
+      "sch_served": [
+        "J1.A12",
+        "J1.B1",
+        "J1.B12"
+      ]
+    },
+    {
+      "ref": "#PWR009",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 152.4,
+        "y": 198.12
+      },
+      "sch_x": 152.4,
+      "sch_y": 198.12,
+      "x": 152.4,
+      "y": 198.12,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "J1.SH",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR010",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 198.12,
+        "y": 185.42
+      },
+      "sch_x": 198.12,
+      "sch_y": 185.42,
+      "x": 198.12,
+      "y": 185.42,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "R2.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR011",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 213.36,
+        "y": 185.42
+      },
+      "sch_x": 213.36,
+      "sch_y": 185.42,
+      "x": 213.36,
+      "y": 185.42,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "R3.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR012",
+      "lib_id": "power:VCC",
+      "value": "VBUS",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 12.7,
+        "y": 158.75
+      },
+      "sch_x": 12.7,
+      "sch_y": 158.75,
+      "x": 12.7,
+      "y": 158.75,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C3.1",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR013",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 12.7,
+        "y": 171.45
+      },
+      "sch_x": 12.7,
+      "sch_y": 171.45,
+      "x": 12.7,
+      "y": 171.45,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C3.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR014",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 17.78,
+        "y": 195.58
+      },
+      "sch_x": 17.78,
+      "sch_y": 195.58,
+      "x": 17.78,
+      "y": 195.58,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "U2.1",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR015",
+      "lib_id": "power:VCC",
+      "value": "VBUS",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 104.14,
+        "y": 158.75
+      },
+      "sch_x": 104.14,
+      "sch_y": 158.75,
+      "x": 104.14,
+      "y": 158.75,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C4.1",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR016",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 104.14,
+        "y": 171.45
+      },
+      "sch_x": 104.14,
+      "sch_y": 171.45,
+      "x": 104.14,
+      "y": 171.45,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C4.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR017",
+      "lib_id": "power:VCC",
+      "value": "3V3",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 27.94,
+        "y": 158.75
+      },
+      "sch_x": 27.94,
+      "sch_y": 158.75,
+      "x": 27.94,
+      "y": 158.75,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C5.1",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR018",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 27.94,
+        "y": 171.45
+      },
+      "sch_x": 27.94,
+      "sch_y": 171.45,
+      "x": 27.94,
+      "y": 171.45,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C5.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR019",
+      "lib_id": "power:VCC",
+      "value": "3V3",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 34.29,
+        "y": 48.26
+      },
+      "sch_x": 34.29,
+      "sch_y": 48.26,
+      "x": 34.29,
+      "y": 48.26,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "R4.1",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR020",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 68.58,
+        "y": 59.69
+      },
+      "sch_x": 68.58,
+      "sch_y": 59.69,
+      "x": 68.58,
+      "y": 59.69,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C6.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR021",
+      "lib_id": "power:VCC",
+      "value": "3V3",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 67.31,
+        "y": 16.51
+      },
+      "sch_x": 67.31,
+      "sch_y": 16.51,
+      "x": 67.31,
+      "y": 16.51,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "R5.1",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR022",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 86.36,
+        "y": 26.67
+      },
+      "sch_x": 86.36,
+      "sch_y": 26.67,
+      "x": 86.36,
+      "y": 26.67,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C7.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR023",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 271.78,
+        "y": 31.75
+      },
+      "sch_x": 271.78,
+      "sch_y": 31.75,
+      "x": 271.78,
+      "y": 31.75,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "D1.3",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR024",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 335.28,
+        "y": 31.75
+      },
+      "sch_x": 335.28,
+      "sch_y": 31.75,
+      "x": 335.28,
+      "y": 31.75,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "D2.3",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR025",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 204.47,
+        "y": 96.52
+      },
+      "sch_x": 204.47,
+      "sch_y": 96.52,
+      "x": 204.47,
+      "y": 96.52,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "D3.3",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR026",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 231.14,
+        "y": 88.9
+      },
+      "sch_x": 231.14,
+      "sch_y": 88.9,
+      "x": 231.14,
+      "y": 88.9,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C8.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR027",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 248.92,
+        "y": 88.9
+      },
+      "sch_x": 248.92,
+      "sch_y": 88.9,
+      "x": 248.92,
+      "y": 88.9,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C9.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR028",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 307.34,
+        "y": 88.9
+      },
+      "sch_x": 307.34,
+      "sch_y": 88.9,
+      "x": 307.34,
+      "y": 88.9,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C10.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR029",
+      "lib_id": "power:VCC",
+      "value": "VBUS",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 119.38,
+        "y": 158.75
+      },
+      "sch_x": 119.38,
+      "sch_y": 158.75,
+      "x": 119.38,
+      "y": 158.75,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C11.1",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR030",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 119.38,
+        "y": 171.45
+      },
+      "sch_x": 119.38,
+      "sch_y": 171.45,
+      "x": 119.38,
+      "y": 171.45,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C11.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR031",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 177.8,
+        "y": 133.35
+      },
+      "sch_x": 177.8,
+      "sch_y": 133.35,
+      "x": 177.8,
+      "y": 133.35,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "C12.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR032",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 109.22,
+        "y": 208.28
+      },
+      "sch_x": 109.22,
+      "sch_y": 208.28,
+      "x": 109.22,
+      "y": 208.28,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "U3.2",
+      "sch_auto": true
+    },
+    {
+      "ref": "#PWR033",
+      "lib_id": "power:VCC",
+      "value": "VBUS",
+      "sch_only": true,
+      "footprint": "",
+      "sch": {
+        "x": 109.22,
+        "y": 190.5
+      },
+      "sch_x": 109.22,
+      "sch_y": 190.5,
+      "x": 109.22,
+      "y": 190.5,
+      "rotation": 0,
+      "sch_pinned": true,
+      "sch_owner": "U3.5",
+      "sch_auto": true
+    }
+  ],
+  "nets": [
+    {
+      "name": "3V3",
+      "pins": [
+        "C1.1",
+        "C2.1",
+        "C5.1",
+        "J2.1",
+        "R1.1",
+        "R4.1",
+        "R5.1",
+        "U1.2",
+        "U2.2"
+      ]
+    },
+    {
+      "name": "D1_LED_CHAIN_1",
+      "pins": [
+        "D1.2",
+        "D2.4"
+      ]
+    },
+    {
+      "name": "D1_LED_CHAIN_2",
+      "pins": [
+        "D2.2",
+        "D3.4"
+      ]
+    },
+    {
+      "name": "D1_LED_DIN",
+      "pins": [
+        "D1.4",
+        "R6.2"
+      ]
+    },
+    {
+      "name": "D1_VLED",
+      "pins": [
+        "C10.1",
+        "C12.1",
+        "C8.1",
+        "C9.1",
+        "D1.1",
+        "D2.1",
+        "D3.1",
+        "D4.1"
+      ]
+    },
+    {
+      "name": "EN",
+      "pins": [
+        "C7.1",
+        "J2.2",
+        "R1.2",
+        "R5.2",
+        "SW2.1",
+        "U1.3"
+      ]
+    },
+    {
+      "name": "GND",
+      "pins": [
+        "C1.2",
+        "C10.2",
+        "C11.2",
+        "C12.2",
+        "C2.2",
+        "C3.2",
+        "C4.2",
+        "C5.2",
+        "C6.2",
+        "C7.2",
+        "C8.2",
+        "C9.2",
+        "D1.3",
+        "D2.3",
+        "D3.3",
+        "J1.A1",
+        "J1.A12",
+        "J1.B1",
+        "J1.B12",
+        "J1.SH",
+        "J3.1",
+        "J3.18",
+        "R2.2",
+        "R3.2",
+        "SW1.2",
+        "SW2.2",
+        "U1.1",
+        "U1.40",
+        "U1.41",
+        "U2.1",
+        "U3.2"
+      ]
+    },
+    {
+      "name": "IO0",
+      "pins": [
+        "C6.1",
+        "J3.11",
+        "R4.2",
+        "SW1.1",
+        "U1.27"
+      ]
+    },
+    {
+      "name": "IO1",
+      "pins": [
+        "J3.2",
+        "U1.39"
+      ]
+    },
+    {
+      "name": "IO10",
+      "pins": [
+        "J2.15",
+        "U1.18"
+      ]
+    },
+    {
+      "name": "IO11",
+      "pins": [
+        "J2.16",
+        "U1.19"
+      ]
+    },
+    {
+      "name": "IO12",
+      "pins": [
+        "J2.17",
+        "U1.20"
+      ]
+    },
+    {
+      "name": "IO13",
+      "pins": [
+        "J3.17",
+        "U1.21"
+      ]
+    },
+    {
+      "name": "IO14",
+      "pins": [
+        "J3.16",
+        "U1.22"
+      ]
+    },
+    {
+      "name": "IO15",
+      "pins": [
+        "J2.7",
+        "U1.8"
+      ]
+    },
+    {
+      "name": "IO16",
+      "pins": [
+        "J2.8",
+        "U1.9"
+      ]
+    },
+    {
+      "name": "IO17",
+      "pins": [
+        "J2.9",
+        "U1.10"
+      ]
+    },
+    {
+      "name": "IO18",
+      "pins": [
+        "J2.10",
+        "U1.11"
+      ]
+    },
+    {
+      "name": "IO2",
+      "pins": [
+        "J3.3",
+        "U1.38"
+      ]
+    },
+    {
+      "name": "IO21",
+      "pins": [
+        "J3.15",
+        "U1.23"
+      ]
+    },
+    {
+      "name": "IO3",
+      "pins": [
+        "J2.12",
+        "U1.15"
+      ]
+    },
+    {
+      "name": "IO38",
+      "pins": [
+        "J3.10",
+        "U1.31"
+      ]
+    },
+    {
+      "name": "IO39",
+      "pins": [
+        "J3.9",
+        "U1.32"
+      ]
+    },
+    {
+      "name": "IO4",
+      "pins": [
+        "J2.3",
+        "U1.4"
+      ]
+    },
+    {
+      "name": "IO40",
+      "pins": [
+        "J3.8",
+        "U1.33"
+      ]
+    },
+    {
+      "name": "IO41",
+      "pins": [
+        "J3.7",
+        "U1.34"
+      ]
+    },
+    {
+      "name": "IO42",
+      "pins": [
+        "J3.6",
+        "U1.35"
+      ]
+    },
+    {
+      "name": "IO45",
+      "pins": [
+        "J3.12",
+        "U1.26"
+      ]
+    },
+    {
+      "name": "IO46",
+      "pins": [
+        "J2.13",
+        "U1.16"
+      ]
+    },
+    {
+      "name": "IO47",
+      "pins": [
+        "J3.14",
+        "U1.24"
+      ]
+    },
+    {
+      "name": "IO48",
+      "pins": [
+        "J3.13",
+        "R6.1",
+        "U1.25"
+      ]
+    },
+    {
+      "name": "IO5",
+      "pins": [
+        "J2.4",
+        "U1.5"
+      ]
+    },
+    {
+      "name": "IO6",
+      "pins": [
+        "J2.5",
+        "U1.6"
+      ]
+    },
+    {
+      "name": "IO7",
+      "pins": [
+        "J2.6",
+        "U1.7"
+      ]
+    },
+    {
+      "name": "IO8",
+      "pins": [
+        "J2.11",
+        "U1.12"
+      ]
+    },
+    {
+      "name": "IO9",
+      "pins": [
+        "J2.14",
+        "U1.17"
+      ]
+    },
+    {
+      "name": "J1_CC1",
+      "pins": [
+        "J1.A5",
+        "R2.1"
+      ]
+    },
+    {
+      "name": "J1_CC2",
+      "pins": [
+        "J1.B5",
+        "R3.1"
+      ]
+    },
+    {
+      "name": "RXD0",
+      "pins": [
+        "J3.5",
+        "U1.36"
+      ]
+    },
+    {
+      "name": "TXD0",
+      "pins": [
+        "J3.4",
+        "U1.37"
+      ]
+    },
+    {
+      "name": "USB_DN",
+      "pins": [
+        "J1.A7",
+        "J1.B7",
+        "U1.13",
+        "U3.3",
+        "U3.4"
+      ]
+    },
+    {
+      "name": "USB_DP",
+      "pins": [
+        "J1.A6",
+        "J1.B6",
+        "U1.14",
+        "U3.1",
+        "U3.6"
+      ]
+    },
+    {
+      "name": "VBUS",
+      "pins": [
+        "C11.1",
+        "C3.1",
+        "C4.1",
+        "D4.2",
+        "J1.A4",
+        "J1.A9",
+        "J1.B4",
+        "J1.B9",
+        "J2.18",
+        "U2.3",
+        "U3.5"
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "w_707e45fb0413",
+      "net": "IO11",
+      "pts": [
+        {
+          "x": 95.25,
+          "y": 82.55
+        },
+        {
+          "x": 83.82,
+          "y": 82.55
+        },
+        {
+          "x": 83.82,
+          "y": 90.17
+        },
+        {
+          "x": 110.49,
+          "y": 90.17
+        },
+        {
+          "x": 110.49,
+          "y": 80.01
+        },
+        {
+          "x": 121.92,
+          "y": 80.01
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_8096ffbeeb9f",
+      "net": "IO12",
+      "pts": [
+        {
+          "x": 95.25,
+          "y": 85.09
+        },
+        {
+          "x": 82.55,
+          "y": 85.09
+        },
+        {
+          "x": 82.55,
+          "y": 91.44
+        },
+        {
+          "x": 109.22,
+          "y": 91.44
+        },
+        {
+          "x": 109.22,
+          "y": 82.55
+        },
+        {
+          "x": 121.92,
+          "y": 82.55
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_ed60ec5d38d2",
+      "net": "J1_CC1",
+      "pts": [
+        {
+          "x": 175.26,
+          "y": 162.56
+        },
+        {
+          "x": 198.12,
+          "y": 162.56
+        },
+        {
+          "x": 198.12,
+          "y": 175.26
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_6aeb45e669cd",
+      "net": "D1_LED_DIN",
+      "pts": [
+        {
+          "x": 264.16,
+          "y": 21.59
+        },
+        {
+          "x": 261.62,
+          "y": 21.59
+        },
+        {
+          "x": 261.62,
+          "y": 19.05
+        },
+        {
+          "x": 229.87,
+          "y": 19.05
+        },
+        {
+          "x": 229.87,
+          "y": 17.78
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_05ae58836ca5",
+      "net": "IO4",
+      "pts": [
+        {
+          "x": 95.25,
+          "y": 49.53
+        },
+        {
+          "x": 85.09,
+          "y": 49.53
+        },
+        {
+          "x": 85.09,
+          "y": 41.91
+        },
+        {
+          "x": 111.76,
+          "y": 41.91
+        },
+        {
+          "x": 111.76,
+          "y": 62.23
+        },
+        {
+          "x": 121.92,
+          "y": 62.23
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_01b88c6c9d1f",
+      "net": "IO5",
+      "pts": [
+        {
+          "x": 95.25,
+          "y": 52.07
+        },
+        {
+          "x": 83.82,
+          "y": 52.07
+        },
+        {
+          "x": 83.82,
+          "y": 40.64
+        },
+        {
+          "x": 110.49,
+          "y": 40.64
+        },
+        {
+          "x": 110.49,
+          "y": 64.77
+        },
+        {
+          "x": 121.92,
+          "y": 64.77
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_5975bb885f5c",
+      "net": "J1_CC2",
+      "pts": [
+        {
+          "x": 175.26,
+          "y": 165.1
+        },
+        {
+          "x": 213.36,
+          "y": 165.1
+        },
+        {
+          "x": 213.36,
+          "y": 175.26
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_03246e6a13bc",
+      "net": "D1_LED_CHAIN_1",
+      "pts": [
+        {
+          "x": 279.4,
+          "y": 21.59
+        },
+        {
+          "x": 327.66,
+          "y": 21.59
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_a5ef969b0833",
+      "net": "IO21",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 40.64
+        },
+        {
+          "x": 166.37,
+          "y": 40.64
+        },
+        {
+          "x": 166.37,
+          "y": 62.23
+        },
+        {
+          "x": 152.4,
+          "y": 62.23
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_d022988efaf0",
+      "net": "IO16",
+      "pts": [
+        {
+          "x": 95.25,
+          "y": 62.23
+        },
+        {
+          "x": 81.28,
+          "y": 62.23
+        },
+        {
+          "x": 81.28,
+          "y": 92.71
+        },
+        {
+          "x": 121.92,
+          "y": 92.71
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_b82b3b3f61e7",
+      "net": "IO15",
+      "pts": [
+        {
+          "x": 95.25,
+          "y": 59.69
+        },
+        {
+          "x": 80.01,
+          "y": 59.69
+        },
+        {
+          "x": 80.01,
+          "y": 93.98
+        },
+        {
+          "x": 118.11,
+          "y": 93.98
+        },
+        {
+          "x": 118.11,
+          "y": 90.17
+        },
+        {
+          "x": 121.92,
+          "y": 90.17
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_0e5c119aa885",
+      "net": "RXD0",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 15.24
+        },
+        {
+          "x": 156.21,
+          "y": 15.24
+        },
+        {
+          "x": 156.21,
+          "y": 49.53
+        },
+        {
+          "x": 152.4,
+          "y": 49.53
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_9537a949848a",
+      "net": "TXD0",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 12.7
+        },
+        {
+          "x": 154.94,
+          "y": 12.7
+        },
+        {
+          "x": 154.94,
+          "y": 46.99
+        },
+        {
+          "x": 152.4,
+          "y": 46.99
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_cff460da7a80",
+      "net": "IO17",
+      "pts": [
+        {
+          "x": 95.25,
+          "y": 64.77
+        },
+        {
+          "x": 82.55,
+          "y": 64.77
+        },
+        {
+          "x": 82.55,
+          "y": 34.29
+        },
+        {
+          "x": 134.62,
+          "y": 34.29
+        },
+        {
+          "x": 134.62,
+          "y": 31.75
+        },
+        {
+          "x": 157.48,
+          "y": 31.75
+        },
+        {
+          "x": 157.48,
+          "y": 52.07
+        },
+        {
+          "x": 152.4,
+          "y": 52.07
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_847a091f63b4",
+      "net": "IO38",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 27.94
+        },
+        {
+          "x": 167.64,
+          "y": 27.94
+        },
+        {
+          "x": 167.64,
+          "y": 72.39
+        },
+        {
+          "x": 152.4,
+          "y": 72.39
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_f5bb61ea5c1d",
+      "net": "IO39",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 25.4
+        },
+        {
+          "x": 168.91,
+          "y": 25.4
+        },
+        {
+          "x": 168.91,
+          "y": 74.93
+        },
+        {
+          "x": 152.4,
+          "y": 74.93
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_3922439b190b",
+      "net": "IO45",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 33.02
+        },
+        {
+          "x": 170.18,
+          "y": 33.02
+        },
+        {
+          "x": 170.18,
+          "y": 85.09
+        },
+        {
+          "x": 152.4,
+          "y": 85.09
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_7f0f682de29a",
+      "net": "IO47",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 38.1
+        },
+        {
+          "x": 171.45,
+          "y": 38.1
+        },
+        {
+          "x": 171.45,
+          "y": 90.17
+        },
+        {
+          "x": 152.4,
+          "y": 90.17
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_c1dd706efb65",
+      "net": "IO40",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 22.86
+        },
+        {
+          "x": 172.72,
+          "y": 22.86
+        },
+        {
+          "x": 172.72,
+          "y": 77.47
+        },
+        {
+          "x": 152.4,
+          "y": 77.47
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_ce45e2425bb2",
+      "net": "IO41",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 20.32
+        },
+        {
+          "x": 173.99,
+          "y": 20.32
+        },
+        {
+          "x": 173.99,
+          "y": 80.01
+        },
+        {
+          "x": 152.4,
+          "y": 80.01
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_e7952eb30936",
+      "net": "IO42",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 17.78
+        },
+        {
+          "x": 166.37,
+          "y": 17.78
+        },
+        {
+          "x": 166.37,
+          "y": 39.37
+        },
+        {
+          "x": 175.26,
+          "y": 39.37
+        },
+        {
+          "x": 175.26,
+          "y": 82.55
+        },
+        {
+          "x": 152.4,
+          "y": 82.55
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_641455c2311c",
+      "net": "IO13",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 45.72
+        },
+        {
+          "x": 153.67,
+          "y": 45.72
+        },
+        {
+          "x": 153.67,
+          "y": 30.48
+        },
+        {
+          "x": 107.95,
+          "y": 30.48
+        },
+        {
+          "x": 107.95,
+          "y": 85.09
+        },
+        {
+          "x": 121.92,
+          "y": 85.09
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_3e62ac38471a",
+      "net": "IO14",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 43.18
+        },
+        {
+          "x": 158.75,
+          "y": 43.18
+        },
+        {
+          "x": 158.75,
+          "y": 29.21
+        },
+        {
+          "x": 106.68,
+          "y": 29.21
+        },
+        {
+          "x": 106.68,
+          "y": 87.63
+        },
+        {
+          "x": 121.92,
+          "y": 87.63
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_22712fb2ceb0",
+      "net": "IO1",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 7.62
+        },
+        {
+          "x": 151.13,
+          "y": 7.62
+        },
+        {
+          "x": 151.13,
+          "y": 27.94
+        },
+        {
+          "x": 118.11,
+          "y": 27.94
+        },
+        {
+          "x": 118.11,
+          "y": 54.61
+        },
+        {
+          "x": 121.92,
+          "y": 54.61
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_ac11bdafae7c",
+      "net": "IO2",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 10.16
+        },
+        {
+          "x": 152.4,
+          "y": 10.16
+        },
+        {
+          "x": 152.4,
+          "y": 0.0
+        },
+        {
+          "x": 116.84,
+          "y": 0.0
+        },
+        {
+          "x": 116.84,
+          "y": 57.15
+        },
+        {
+          "x": 121.92,
+          "y": 57.15
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_8f7b1d0785b6",
+      "net": "IO48",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 35.56
+        },
+        {
+          "x": 175.26,
+          "y": 35.56
+        },
+        {
+          "x": 175.26,
+          "y": 2.54
+        },
+        {
+          "x": 229.87,
+          "y": 2.54
+        },
+        {
+          "x": 229.87,
+          "y": 10.16
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_4b8f8553496b",
+      "net": "IO48",
+      "pts": [
+        {
+          "x": 185.42,
+          "y": 35.56
+        },
+        {
+          "x": 165.1,
+          "y": 35.56
+        },
+        {
+          "x": 165.1,
+          "y": 54.61
+        },
+        {
+          "x": 176.53,
+          "y": 54.61
+        },
+        {
+          "x": 176.53,
+          "y": 83.82
+        },
+        {
+          "x": 163.83,
+          "y": 83.82
+        },
+        {
+          "x": 163.83,
+          "y": 92.71
+        },
+        {
+          "x": 152.4,
+          "y": 92.71
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_56a421f73c92",
+      "net": "IO0",
+      "pts": [
+        {
+          "x": 68.58,
+          "y": 49.53
+        },
+        {
+          "x": 68.58,
+          "y": 46.99
+        },
+        {
+          "x": 36.83,
+          "y": 46.99
+        },
+        {
+          "x": 36.83,
+          "y": 60.96
+        },
+        {
+          "x": 34.29,
+          "y": 60.96
+        },
+        {
+          "x": 34.29,
+          "y": 58.42
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_562300f6783b",
+      "net": "IO0",
+      "pts": [
+        {
+          "x": 34.29,
+          "y": 58.42
+        },
+        {
+          "x": 34.29,
+          "y": 60.96
+        },
+        {
+          "x": 6.35,
+          "y": 60.96
+        },
+        {
+          "x": 6.35,
+          "y": 43.18
+        },
+        {
+          "x": 8.89,
+          "y": 43.18
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_40283e9b589a",
+      "net": "IO0",
+      "pts": [
+        {
+          "x": 68.58,
+          "y": 49.53
+        },
+        {
+          "x": 68.58,
+          "y": 39.37
+        },
+        {
+          "x": 115.57,
+          "y": 39.37
+        },
+        {
+          "x": 115.57,
+          "y": 52.07
+        },
+        {
+          "x": 121.92,
+          "y": 52.07
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_aa3cb59e12de",
+      "net": "IO0",
+      "pts": [
+        {
+          "x": 121.92,
+          "y": 52.07
+        },
+        {
+          "x": 115.57,
+          "y": 52.07
+        },
+        {
+          "x": 115.57,
+          "y": -1.27
+        },
+        {
+          "x": 171.45,
+          "y": -1.27
+        },
+        {
+          "x": 171.45,
+          "y": 30.48
+        },
+        {
+          "x": 185.42,
+          "y": 30.48
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_50f2b01559d8",
+      "net": "D1_VLED",
+      "pts": [
+        {
+          "x": 307.34,
+          "y": 78.74
+        },
+        {
+          "x": 248.92,
+          "y": 78.74
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_81a2b3670a90",
+      "net": "D1_VLED",
+      "pts": [
+        {
+          "x": 248.92,
+          "y": 78.74
+        },
+        {
+          "x": 231.14,
+          "y": 78.74
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_e5548afd79d1",
+      "net": "D1_VLED",
+      "pts": [
+        {
+          "x": 231.14,
+          "y": 78.74
+        },
+        {
+          "x": 204.47,
+          "y": 78.74
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_b0704da82fb5",
+      "net": "D1_VLED",
+      "pts": [
+        {
+          "x": 204.47,
+          "y": 78.74
+        },
+        {
+          "x": 204.47,
+          "y": 76.2
+        },
+        {
+          "x": 177.8,
+          "y": 76.2
+        },
+        {
+          "x": 177.8,
+          "y": 123.19
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_7fd60a64a665",
+      "net": "D1_VLED",
+      "pts": [
+        {
+          "x": 248.92,
+          "y": 78.74
+        },
+        {
+          "x": 248.92,
+          "y": 11.43
+        },
+        {
+          "x": 271.78,
+          "y": 11.43
+        },
+        {
+          "x": 271.78,
+          "y": 13.97
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_59170ef46902",
+      "net": "D1_VLED",
+      "pts": [
+        {
+          "x": 271.78,
+          "y": 13.97
+        },
+        {
+          "x": 335.28,
+          "y": 13.97
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "w_985da62dca91",
+      "net": "D1_VLED",
+      "pts": [
+        {
+          "x": 177.8,
+          "y": 123.19
+        },
+        {
+          "x": 177.8,
+          "y": 120.65
+        },
+        {
+          "x": 59.69,
+          "y": 120.65
+        },
+        {
+          "x": 59.69,
+          "y": 177.8
+        },
+        {
+          "x": 62.23,
+          "y": 177.8
+        }
+      ],
+      "auto": true
+    }
+  ],
+  "texts": [],
+  "constraints": [
+    {
+      "id": "lock:C11",
+      "type": "lock",
+      "ref": "C11",
+      "x": 22.06,
+      "y": 57.5,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:C12",
+      "type": "lock",
+      "ref": "C12",
+      "x": 9.7,
+      "y": 45.6,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:C2",
+      "type": "lock",
+      "ref": "C2",
+      "x": 21.3,
+      "y": 47.9,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:C3",
+      "type": "lock",
+      "ref": "C3",
+      "x": 8.94,
+      "y": 57.5,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:C4",
+      "type": "lock",
+      "ref": "C4",
+      "x": 21.3,
+      "y": 40.5,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:C5",
+      "type": "lock",
+      "ref": "C5",
+      "x": 21.3,
+      "y": 44.2,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:C6",
+      "type": "lock",
+      "ref": "C6",
+      "x": 23.4,
+      "y": 43.6,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:C7",
+      "type": "lock",
+      "ref": "C7",
+      "x": 7.6,
+      "y": 40.3,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:C9",
+      "type": "lock",
+      "ref": "C9",
+      "x": 15.5,
+      "y": 37.6,
+      "rot": 0.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:D2",
+      "type": "lock",
+      "ref": "D2",
+      "x": 15.5,
+      "y": 33.0,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:D4",
+      "type": "lock",
+      "ref": "D4",
+      "x": 9.7,
+      "y": 41.123,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:J1",
+      "type": "lock",
+      "ref": "J1",
+      "x": 15.5,
+      "y": 59.245,
+      "rot": 0.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:J2",
+      "type": "lock",
+      "ref": "J2",
+      "x": 1.53,
+      "y": 29.585,
+      "rot": 0.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:J3",
+      "type": "lock",
+      "ref": "J3",
+      "x": 29.47,
+      "y": 29.585,
+      "rot": 0.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:R1",
+      "type": "lock",
+      "ref": "R1",
+      "x": 23.4,
+      "y": 50.2,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:R2",
+      "type": "lock",
+      "ref": "R2",
+      "x": 12.2,
+      "y": 52.8,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:R3",
+      "type": "lock",
+      "ref": "R3",
+      "x": 18.8,
+      "y": 52.8,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:R4",
+      "type": "lock",
+      "ref": "R4",
+      "x": 23.4,
+      "y": 46.9,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:R5",
+      "type": "lock",
+      "ref": "R5",
+      "x": 7.6,
+      "y": 43.6,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:R6",
+      "type": "lock",
+      "ref": "R6",
+      "x": 23.4,
+      "y": 37.6,
+      "rot": 0.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:SW1",
+      "type": "lock",
+      "ref": "SW1",
+      "x": 25.8,
+      "y": 58.8,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:SW2",
+      "type": "lock",
+      "ref": "SW2",
+      "x": 5.2,
+      "y": 58.8,
+      "rot": 90.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:U1",
+      "type": "lock",
+      "ref": "U1",
+      "x": 15.5,
+      "y": 5.6,
+      "rot": 0.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:U2",
+      "type": "lock",
+      "ref": "U2",
+      "x": 15.5,
+      "y": 42.962,
+      "rot": 0.0,
+      "why": "Hand-placed symmetric DevKitC layout: module top, headers on both sides, USB-C + buttons at the bottom edge",
+      "source": "user"
+    },
+    {
+      "id": "lock:C1",
+      "type": "lock",
+      "ref": "C1",
+      "x": 4.55,
+      "y": 8.5,
+      "rot": 90.0,
+      "why": "Final DevKitC placement: C1 at U1 pin 2, ESD inline with the USB pair, LED row spread",
+      "source": "user"
+    },
+    {
+      "id": "lock:D1",
+      "type": "lock",
+      "ref": "D1",
+      "x": 21.4,
+      "y": 33.0,
+      "rot": 90.0,
+      "why": "Final DevKitC placement: C1 at U1 pin 2, ESD inline with the USB pair, LED row spread",
+      "source": "user"
+    },
+    {
+      "id": "lock:D3",
+      "type": "lock",
+      "ref": "D3",
+      "x": 9.6,
+      "y": 33.0,
+      "rot": 90.0,
+      "why": "Final DevKitC placement: C1 at U1 pin 2, ESD inline with the USB pair, LED row spread",
+      "source": "user"
+    },
+    {
+      "id": "lock:C8",
+      "type": "lock",
+      "ref": "C8",
+      "x": 9.6,
+      "y": 37.6,
+      "rot": 0.0,
+      "why": "Final DevKitC placement: C1 at U1 pin 2, ESD inline with the USB pair, LED row spread",
+      "source": "user"
+    },
+    {
+      "id": "lock:C10",
+      "type": "lock",
+      "ref": "C10",
+      "x": 21.4,
+      "y": 37.6,
+      "rot": 0.0,
+      "why": "Final DevKitC placement: C1 at U1 pin 2, ESD inline with the USB pair, LED row spread",
+      "source": "user"
+    },
+    {
+      "id": "lock:U3",
+      "type": "lock",
+      "ref": "U3",
+      "x": 15.447,
+      "y": 50.5,
+      "rot": 90.0,
+      "why": "ESD inline with the USB pair",
+      "source": "user"
+    }
+  ],
+  "rules": {
+    "clearanceMm": 0.127,
+    "trackWidthMm": 0.127,
+    "minTrackWidthMm": 0.127,
+    "viaDiameterMm": 0.45,
+    "viaDrillMm": 0.3,
+    "minDrillMm": 0.3,
+    "edgeClearanceMm": 0.3,
+    "holeClearanceMm": 0.2,
+    "holeToHoleMm": 0.5,
+    "maskExpansionMm": 0.05,
+    "maskMinWidthMm": 0.1,
+    "silkWidthMm": 0.153,
+    "silkTextHeightMm": 1.0,
+    "silkClearanceMm": 0.15
+  },
+  "netClasses": [
+    {
+      "name": "USB",
+      "nets": [
+        "USB_DP",
+        "USB_DN"
+      ],
+      "preset": "usb2",
+      "traceWidthMm": 0.256,
+      "diffGapMm": 0.15,
+      "maxSkewMm": 1.25,
+      "impedanceTolPct": 15.0,
+      "impedanceOhm": 90.0,
+      "impedanceType": "differential",
+      "diffPairs": [
+        [
+          "USB_DP",
+          "USB_DN"
+        ]
+      ]
+    },
+    {
+      "name": "PWR",
+      "nets": [
+        "VBUS",
+        "3V3",
+        "D1_VLED"
+      ],
+      "traceWidthMm": 0.4,
+      "currentA": 0.5
+    }
+  ],
+  "outline": {
+    "kind": "rounded_rect",
+    "params": {
+      "width": 31.0,
+      "height": 64.0,
+      "cornerRadiusMm": 2.0
+    },
+    "placeMode": "rect",
+    "widthMm": 31.0,
+    "heightMm": 64.0
+  },
+  "stackup": {
+    "layers": 4,
+    "thicknessMm": 1.6,
+    "copperOz": 1.0,
+    "material": "FR4",
+    "er": 4.5,
+    "lossTangent": 0.02,
+    "builtLayers": 4
+  },
+  "blocks": [
+    {
+      "id": "U1",
+      "block": "esp32_s3_minimal",
+      "refs": [
+        "U1",
+        "C1",
+        "C2",
+        "R1"
+      ]
+    },
+    {
+      "id": "J1",
+      "block": "usb_c_data_5v",
+      "refs": [
+        "J1",
+        "R2",
+        "R3",
+        "C3"
+      ]
+    },
+    {
+      "id": "U2",
+      "block": "ldo_3v3",
+      "refs": [
+        "U2",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "id": "SW1",
+      "block": "button_rc",
+      "refs": [
+        "SW1",
+        "R4",
+        "C6"
+      ]
+    },
+    {
+      "id": "SW2",
+      "block": "button_rc",
+      "refs": [
+        "SW2",
+        "R5",
+        "C7"
+      ]
+    },
+    {
+      "id": "D1",
+      "block": "ws2812b_chain",
+      "refs": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "R6"
+      ]
+    }
+  ]
+}

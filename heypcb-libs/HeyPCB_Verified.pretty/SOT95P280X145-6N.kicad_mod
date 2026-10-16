@@ -1,0 +1,330 @@
+(footprint "SOT95P280X145-6N"
+	(version 20260206)
+	(generator "heypcb_landpattern")
+	(layer "F.Cu")
+	(descr "SOT, 6 pin, IPC-7351B nominal density, HeyPCB ipc7351b-hp-r1")
+	(tags "sot")
+	(property "Reference" "REF**"
+		(at 0 -2.42 0)
+		(layer "F.SilkS")
+		(uuid "5a08d7b5-748d-5ef7-aa93-2ca66776337c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT95P280X145-6N"
+		(at 0 2.42 0)
+		(layer "F.Fab")
+		(uuid "83466f77-732e-50d0-a2a1-4953ce320200")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "HeyPCB_Density" "B"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8696dc72-a628-52e3-a6b4-a884946b3b97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "HeyPCB_Package" "SOT95P280X145-6"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cbe875b-f0bd-5534-9344-fe6cd9f4f4ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "HeyPCB_Ruleset" "ipc7351b-hp-r1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fcbf186-627b-5290-a2c1-6fbf8e06d405")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.40625 -1.4625)
+			(xy 0.8125 -1.4625)
+			(xy 0.8125 1.4625)
+			(xy -0.8125 1.4625)
+			(xy -0.8125 -1.05625)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7bcf352c-137d-5617-9156-741534e8fee9")
+	)
+	(fp_line
+		(start -2.1 -1.45)
+		(end -1.07 -1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa3084c6-9236-5d2e-b39d-da2f9806b6ab")
+	)
+	(fp_line
+		(start -1.07 -1.45)
+		(end -1.07 -1.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2f0f499-fc5e-50de-8ce9-59f8591e0913")
+	)
+	(fp_line
+		(start -1.07 -1.72)
+		(end 1.07 -1.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d8cc13eb-3c05-53c5-96c4-0bb51f0df16e")
+	)
+	(fp_line
+		(start 1.07 -1.72)
+		(end 1.07 -1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "495d0b51-081d-5374-9ed1-f16e0e7399f0")
+	)
+	(fp_line
+		(start 1.07 -1.45)
+		(end 2.1 -1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e83c125-568d-5550-a62f-cae8ab94e698")
+	)
+	(fp_line
+		(start 2.1 -1.45)
+		(end 2.1 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6df541c4-6af1-54fc-943c-50254aee6449")
+	)
+	(fp_line
+		(start 2.1 1.45)
+		(end 1.07 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "027634df-257d-54d9-98a6-98123ab057a8")
+	)
+	(fp_line
+		(start 1.07 1.45)
+		(end 1.07 1.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff27ecab-0464-5745-bbef-ef7fedba593b")
+	)
+	(fp_line
+		(start 1.07 1.72)
+		(end -1.07 1.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "83a08f4a-15df-58aa-946f-2a3091a2e33b")
+	)
+	(fp_line
+		(start -1.07 1.72)
+		(end -1.07 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2b06454-6b39-5563-bbd9-ef24068f93da")
+	)
+	(fp_line
+		(start -1.07 1.45)
+		(end -2.1 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85828674-b73a-5ad0-8bd6-077e1d9fa351")
+	)
+	(fp_line
+		(start -2.1 1.45)
+		(end -2.1 -1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a9d2531-da45-5f3f-9fb7-3e6ac124e7f6")
+	)
+	(fp_poly
+		(pts
+			(xy -1.4625 -1.46)
+			(xy -1.7025 -1.79)
+			(xy -1.2225 -1.79)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6ab333b8-aa38-5d9c-9f39-41b583eb0776")
+	)
+	(fp_line
+		(start -0.92 -1.57)
+		(end 0.92 -1.57)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99ecb090-7450-5ea9-84ed-c86ea7b26a80")
+	)
+	(fp_line
+		(start -0.92 1.57)
+		(end 0.92 1.57)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72bda659-df48-5723-84fc-34000b5f0644")
+	)
+	(fp_line
+		(start -0.92 -1.57)
+		(end -0.92 -1.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ce885e8-d755-5346-9aef-c44b088577e9")
+	)
+	(fp_line
+		(start -0.92 1.46)
+		(end -0.92 1.57)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "825e91f3-9b28-5081-be62-ddb47e9a6aca")
+	)
+	(fp_line
+		(start 0.92 -1.57)
+		(end 0.92 -1.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc9bc0d7-bcda-51e5-ae16-d461f2efbd02")
+	)
+	(fp_line
+		(start 0.92 1.46)
+		(end 0.92 1.57)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa180440-14c5-5909-b4ac-91bb622989a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "22488c96-1788-5b76-a224-1901a957d368")
+		(effects
+			(font
+				(size 0.81 0.81)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.15 -0.95)
+		(size 1.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2421835d-2de0-5833-81cc-ed3954572e2f")
+	)
+	(pad "2" smd roundrect
+		(at -1.15 0)
+		(size 1.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f09bcb77-b70e-5c6e-8233-af53d3bbb2dd")
+	)
+	(pad "3" smd roundrect
+		(at -1.15 0.95)
+		(size 1.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f44b01c0-0f2c-57d7-9a75-2592dd92e0bd")
+	)
+	(pad "4" smd roundrect
+		(at 1.15 0.95)
+		(size 1.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "54764a11-ea8d-5a8f-aa41-698c5cd86d59")
+	)
+	(pad "5" smd roundrect
+		(at 1.15 0)
+		(size 1.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f8359b94-7e0a-5f1b-b0a9-faa47e71a9a0")
+	)
+	(pad "6" smd roundrect
+		(at 1.15 -0.95)
+		(size 1.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "afd750bd-e4b4-53d9-89fa-1ca98f8ea2a9")
+	)
+	(embedded_fonts no)
+)
