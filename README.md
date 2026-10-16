@@ -2,7 +2,7 @@
 
 A 31 × 64 mm ESP32-S3 development board laid out like Espressif's DevKitC-1: the WROOM-1 module at the top with its antenna on the edge, an 18-pin header down each side, three WS2812B LEDs, and USB-C between RST and BOOT.
 
-An agent built it through [HeyPCB's MCP server](https://heypcb.ai/mcp): blocks, parts, nets, hand placement, routing and checks, all as tool calls. KiCad 10 opens the files directly.
+An agent built it through [HeyPCB's MCP server](https://heypcb.ai/mcp): blocks, parts, nets, hand placement, routing and checks, all as tool calls. KiCad 10 opens the files directly, and the board is on [Circuit World](https://heypcb.ai/world/b/a0fca22e9815) to open or fork in HeyPCB (sign-in required).
 
 <p align="center">
   <img src="images/iso.png" width="640" alt="3D render of the ESP32-S3 DevKit">
